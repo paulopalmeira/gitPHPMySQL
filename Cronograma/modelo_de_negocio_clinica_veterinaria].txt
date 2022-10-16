@@ -1,0 +1,29 @@
+Modelo de Negócio: Clínica Veterinária
+
+O veterinário que atende na clínica é previamente cadastrado pelo número no conselho regional de veterinária (CRV) 
+dado alfanumérico obrigatório, não repetido de cinco dígitos (CRV: 12.345), nome, endereço (completo), por um 
+número de celular (dado opcional sem o ddd) e pelo CPF (11 dígitos alfanuméricos, obrigatório e não repetido). 
+
+Cada veterinário “pode” consultar um ou mais animais. Cada consulta precisa ter o registro da data e o horário da consulta, 
+o valor da consulta e o diagnóstico (dado alfabético extenso). Todos os dados são obrigatórios. 
+
+Os animais consultados na clínica são identificados pelo nome (Totó, Lulú, etc. Dado alfabético opcional), 
+tipo (gato, cachorro, passarinho, etc. dado alfabético obrigatório), raça (siamês, pastor alemão, etc dado 
+alfabético opcional), idade (número inteiro de até três (3) dígitos opcionais) e se o animal é alérgico 
+ou não, sendo estes dados suficientes para a identificação de cada animal. 
+Um animal “deve” ser consultado por um ou mais veterinários. 
+Um animal registrado na clínica “pode” ser um e somente um animal herbívoro. 
+Os animais herbívoros são registrados pelo peso em Kg (dado numérico, decimal com até 
+quatro (4) dígitos inteiros e duas (2) casas decimais) e a altura do animal (dado numérico, 
+decimal com até dois (2) dígitos inteiros e duas (2) casas decimais). Um animal herbívoro 
+“deve” ser um e somente um animal cadastrado na clínica; Todos os dados devem ser obrigatoriamente preenchidos.
+
+Ainda é necessário para a clínica ter os dados do dono do animal que, deverá se responsabilizar pelo mesmo. 
+Neste caso o dono é o cliente da clínica e, um cliente “deve” ter um ou mais animais vinculados ao seu registro.
+
+O cliente, dono do animal, é registrado pelo nome, (dados indexados, alfabético de até 30 caracteres, 
+obrigatório, mas que poderá se repetir), o endereço (completo), o telefone (ddd, prefixo e sufixo), 
+o celular (prefixo e sufixo) e CPF (dado alfanumérico de onze dígitos obrigatório e único para cada cliente).
+
+Obviamente um animal “deve” ter um e somente um dono. Os dados do veterinário são de responsabilidade da gerência da clínica, 
+enquanto os dados do animal, do cliente e da consulta são da competência do atendimento. 

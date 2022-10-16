@@ -12,11 +12,11 @@ if ($conn->connect_error) {
 }
 
 // Create database
-$sql = "CREATE DATABASE CLINICA";
+$sql = "CREATE DATABASE clinica_veterinaria";
 if ($conn->query($sql) === TRUE) {
-  echo "Database created successfully";
+  echo "Database criada com sucesso";
 } else {
-  echo "Error creating database: " . $conn->error;
+  echo "Erro ao criar o database: " . $conn->error;
 }
 
 $conn->close();

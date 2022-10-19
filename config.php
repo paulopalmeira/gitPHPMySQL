@@ -1,7 +1,5 @@
 <?php
 
-// Sample file: Never send your credentials to git
-
 // host
 $host = 'http://localhost/gitPHPMysql/';
 

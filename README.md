@@ -3,4 +3,6 @@
 
 Using MySQLi Object-oriented
 
-17/10/2022 - 20:58hs
+17/10/2022 - Edit
+
+19/10/2022 - Config.php
